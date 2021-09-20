@@ -15,4 +15,3 @@ elif name == "justin":
     print(name, "is", choice(justin))
 else:
     print("joe mama")
-
