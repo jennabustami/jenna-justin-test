@@ -1,9 +1,14 @@
 from random import choice
-# run to see facts
-jenna = ["annoying", "okay", "jenna", "mid", "smart but not as smart as justin", "going to an okay school", "the meanest person ever"]
-justin = ["interesting", "fun", "funny", "important", "high iq", "living on the best coast", "going to apply to berkeley (in jennas dreams)"]
 
-name = input("jenna or justin? ")
+# The code below is broken:
+# jenna = ["awesome", "cool", "amazing", "the best person ever", "hot asf", "smart asf", "going to the best university ever", "the nicest person ever"]
+# justin = ["weird", "odd", "cringy", "irrelevant", "low iq", "annoying", "living on the wost coast", "going to apply to berkeley"]
+
+# Here is the fixed version:
+jenna = ['annoying', 'cringe', 'weird and sleeps on the floor', 'is basically a turtle', 'is broke', 'pays $20K a year on dorms', 'needs to drink more water']
+jusin = ['amazing', 'big IQ', 'sleeps in a bed unlike jenna', 'is built different', 'will fold jenna in half', 'is GOATED', 'knows who joe is']
+
+name = input("jenna or justin?")
 if name == "jenna":
     print(name, "is", choice(jenna))
 elif name == "justin":
