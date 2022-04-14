@@ -42,7 +42,7 @@ def _main(verbose: bool = False):
         sleep(2)
         clear()
 
-    print('jenna is awesome but its ok i like her anyway') 
+    print('jenna is annoying but its ok i like her anyway') 
 
 
 # Run script directly:
